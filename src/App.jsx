@@ -250,7 +250,7 @@ const curriculumData = {
       description: 'Dominar Spring Boot, criar APIs REST funcionais, trabalhar com banco de dados.',
       duration: '8-10 semanas',
       icon: <Server className="w-6 h-6" />,
-      color: 'green',
+      color: 'emerald',
       modules: [
         {
           id: '2.1',
@@ -497,7 +497,7 @@ const curriculumData = {
       description: 'DevSecOps, CI/CD, microserviços, observabilidade.',
       duration: '16-20 semanas',
       icon: <Layers className="w-6 h-6" />,
-      color: 'yellow',
+      color: 'orange',
       modules: [
         {
           id: '4.1',
@@ -1237,8 +1237,8 @@ export default function App() {
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {curriculumData.levels.map(l => (
                         <div key={l.id} onClick={() => { setLevel(l); setView('dashboard'); }} className="group bg-white p-8 rounded-[2rem] shadow-lg cursor-pointer hover:-translate-y-2 transition-all border border-slate-100 hover:shadow-2xl relative overflow-hidden">
-                            <div className={`absolute top-0 left-0 w-full h-2 bg-${l.color}-500`}></div>
-                            <div className={`w-16 h-16 rounded-2xl bg-${l.color}-100 flex items-center justify-center mb-6 text-${l.color}-600 group-hover:scale-110 transition-transform`}>{l.icon}</div>
+                           
+                            <div className={`w-16 h-16 rounded-2xl bg-${l.color}-200 flex items-center justify-center mb-6 text-${l.color}-600 group-hover:scale-110 transition-transform`}>{l.icon}</div>
                             <h3 className="text-2xl font-bold mb-3 text-slate-900 group-hover:text-blue-600 transition-colors">{l.title}</h3>
                             <p className="text-sm text-slate-500 mb-6 leading-relaxed">{l.description}</p>
                         </div>
