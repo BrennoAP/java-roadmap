@@ -1128,10 +1128,10 @@ const ModuleDashboard = ({ level, onBack, onToggleTopic, completedTopics, curren
                         </div>
                     </div>
                 </div>
-
+{/* 
                 <div className="mt-8 flex justify-center">
                     <button onClick={() => setQuizOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 shadow-lg hover:shadow-blue-500/20 transition-all"><Play size={20}/> Fazer Quiz do Módulo</button>
-                </div>
+                </div> */}
             </div>
         </main>
       </div>
