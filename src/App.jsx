@@ -17,7 +17,7 @@ const curriculumData = {
   levels: [
     {
       id: 'nivel-1',
-      title: 'Nível 1: Fundamentos (Junior)',
+      title: 'Nível 1: Fundamentos',
       description: 'Base sólida em programação, lógica, Java básico e fundamentos web.',
       duration: '8-10 semanas',
       icon: <Coffee className="w-6 h-6" />,
@@ -246,7 +246,7 @@ const curriculumData = {
     },
     {
       id: 'nivel-2',
-      title: 'Nível 2: Intermediário (Pleno)',
+      title: 'Nível 2: Intermediário',
       description: 'Dominar Spring Boot, criar APIs REST funcionais, trabalhar com banco de dados.',
       duration: '8-10 semanas',
       icon: <Server className="w-6 h-6" />,
@@ -1216,8 +1216,8 @@ export default function App() {
                                 <div className="p-4 bg-cyan-100 rounded-2xl group-hover:bg-cyan-500 transition-colors duration-300"><Monitor className="w-10 h-10 text-cyan-600 group-hover:text-white"/></div>
                                 <span className="bg-slate-100 text-slate-500 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wide">Em Breve</span>
                             </div>
-                            <h3 className="text-4xl font-black text-slate-900 mb-4 group-hover:text-cyan-600 transition-colors">Frontend React</h3>
-                            <p className="text-lg text-slate-600 mb-8 leading-relaxed">Crie interfaces modernas e responsivas. Domine HTML, CSS, JavaScript, React e Next.js.</p>
+                            <h3 className="text-4xl font-black text-slate-900 mb-4 group-hover:text-cyan-600 transition-colors">Frontend Angular</h3>
+                            <p className="text-lg text-slate-600 mb-8 leading-relaxed">Crie interfaces modernas e responsivas. Domine HTML, CSS, JavaScript e Angular</p>
                             <div className="flex items-center text-cyan-600 font-bold text-lg">Ver Roadmap <ChevronRight className="w-6 h-6 ml-2 group-hover:translate-x-2 transition-transform"/></div>
                         </div>
                     </div>
