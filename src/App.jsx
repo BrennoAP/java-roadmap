@@ -351,8 +351,8 @@ const curriculumData = {
     },
     {
       id: 'nivel-3',
-      title: 'Nível 3: Avançado',
-      description: 'Arquitetura limpa, testes automatizados, segurança e padrões avançados.',
+      title: 'Nível 3: Pleno/Avançado',
+      description: 'Arquitetura limpa, testes automatizados e segurança e padrões avançados.',
       duration: '12-14 semanas',
       icon: <Shield className="w-6 h-6" />,
       color: 'purple',
@@ -1217,7 +1217,7 @@ export default function App() {
                                 <span className="bg-slate-100 text-slate-500 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wide">Em Breve</span>
                             </div>
                             <h3 className="text-4xl font-black text-slate-900 mb-4 group-hover:text-cyan-600 transition-colors">Frontend Angular</h3>
-                            <p className="text-lg text-slate-600 mb-8 leading-relaxed">Crie interfaces modernas e responsivas. Domine HTML, CSS, JavaScript e Angular</p>
+                            <p className="text-lg text-slate-600 mb-8 leading-relaxed">Crie interfaces modernas e responsivas. Domine HTML, CSS, JavaScript e Angular.</p>
                             <div className="flex items-center text-cyan-600 font-bold text-lg">Ver Roadmap <ChevronRight className="w-6 h-6 ml-2 group-hover:translate-x-2 transition-transform"/></div>
                         </div>
                     </div>
